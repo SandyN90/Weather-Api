@@ -76,9 +76,16 @@ nav ul li:hover{
     margin-left: 10px;
     /* height: 50px; */
 }
+#city h1{
+    text-align: center;
+    margin-top: 20px;
+}
 #cards{
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+}#cards h3{
+    margin-top: 10px;
 }
 .Div{
     width: 50vh;
@@ -87,9 +94,10 @@ nav ul li:hover{
     margin-top: 5vh;
     background-color: blueviolet;
     border: 1px solid black;
-    transition: width 2s;
+    border-radius: 10px;
+    /* transition: width 2s; */
     
 }
-.Div:hover{
+/* .Div:hover{
     width: 20vh;
-}
+} */
