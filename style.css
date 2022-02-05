@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#headerIcon{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#heading h1{
+    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+    margin-right: 20px;
+}
+nav{
+    background-color: aqua;
+}
+nav ul{
+    list-style: none;
+    display: inline-flex;
+}
+nav ul li{
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+}
+nav ul li:hover{
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+}
+#mainContainer{
+    display: block;
+}
+.searchBar{
+    /* background-color: rgb(68, 160, 114); */
+    /* width: auto; */
+    /* height: 20px; */
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 48vh;
+    display: inline-flex;
+}
+.searchBar div input{
+    width: 100vh;
+    height: 5vh;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+/* .searchBar div img{/ */
+    /* margin-left: 10px; */
+    /* margin-top: px; */
+    
+/* } */
+#searchBtn{
+    width: 100%;
+    height: 35px;
+}
+#searchBtn img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 2px;
+    transition: width height 5s;
+}
+#searchBtn img:hover{
+    background-color: red;
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+    /* height: 50px; */
+}
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Div{
+    width: 50vh;
+    height: 20vh;                    
+    margin-left: 10vh;
+    margin-top: 5vh;
+    background-color: blueviolet;
+    border: 1px solid black;
+    transition: width 2s;
+    
+}
+.Div:hover{
+    width: 20vh;
+}

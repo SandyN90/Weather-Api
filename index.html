@@ -5,29 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather-Api</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
     <header>
-        <h1>This is header tag</h1>
+        <div id="headerIcon">
+            <img src="./weather.png" alt="headerIcon" style="width: 40px; height: 40px;">
+        </div>
+        <div id="heading"><h1>WEATHER-API</h1></div>
     </header>
     <nav>
-        <h1>THis is navabar tag</h1>
+          <ul>
+              <li>Home</li>
+              <li>Search By City</li>
+              <li>Search By Zip-code</li>
+              <li>Search By Co-ordinates</li>
+              <li>Searc By State Code</li>
+          </ul>
     </nav>
     <div id="mainConatainer">
         <div class="searchBar">
-            <input type="text" placeholder="Enter your City here">
-            <img src="#" alt="image">
+           <div> <input type="text" placeholder="Enter your City here"></div>
+            <div id="searchBtn"><img src="/lens.png"  alt="image"></div>
         </div>
         <div id="cards">
-            <div>
-            </div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="Div"></div>
+            <div class="Div"></div>
+            <div class="Div"></div>
+            <div class="Div"></div>
+            <div class="Div"></div>
+            <div class="Div"></div>
         </div>
     </div>
     
-</body>
+</body>  
 </html>
