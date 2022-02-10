@@ -27,12 +27,22 @@ nav ul{
 nav ul li{
     margin: 5px 5px 5px 5px;
     padding: 10px 10px 10px 10px;
+    font-weight: 200;
+    
+}
+ul a{
+    text-decoration: none;
 }
 nav ul li:hover{
     background-color: blueviolet;
     border-radius: 10px;
+    text-decoration: white;
     color: white;
+    cursor: pointer;
 }
+/* nav ul li a:hover{
+    color: white;
+} */
 #mainContainer{
     display: block;
 }

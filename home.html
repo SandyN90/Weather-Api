@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Api</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="headerIcon">
+            <img src="./img/weather.png" alt="headerIcon" style="width: 40px; height: 40px;">
+        </div>
+        <div id="heading"><h1>WEATHER-API</h1></div>
+    </header>
+    <nav>
+        <ul>
+            <a href="./home.html"><li>Home</li></a>
+              <a href="./searchcity.html"><li>Search By City</li></a>
+              <a href="./searchByZipCode.html"><li>Search By Zip-code</li></a>
+              <a href="./co-ordinate.html"><li>Search By Co-ordinates</li></a>
+              <a href="./stateCode.html"><li>Searc By State Code</li></a>
+          </ul>
+    </nav>
+<div class="mainContainer">
+    <div class="mainHeading"><h1>Know weather Condition of your City</h1></div>
+    <div class="gif">
+        <img id="gifImage"src="./img/asnuvis.gif" alt="gif">
+    </div>
+    <div class="homeAbout">
+        <p>Access current weather data for any location on Earth including over 200,000 cities! We collect and process weather data from different sources such as global and local weather models, satellites, radars and a vast network of weather stations. Data is available in JSON, XML, or HTML format.
+
+            Call current weather data</p>
+    </div>
+    <div class="btn"><button>Go &#8594</button></div>
+</div>
+<!-- This is the part of javaScript -->
+<script>
+    const btn = document.getElementsByClassName('btn')[0];
+btn.addEventListener('click', ()=>{
+    window.location.assign('./searchcity.html');
+});
+</script>
+</body>
+</html>
